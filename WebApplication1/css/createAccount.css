@@ -1,0 +1,74 @@
+﻿/* Steven Parra */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    text-align: center;
+}
+
+#container 
+{
+    margin: 20px auto;
+    padding: 20px 10px;
+    width: 600px;
+    text-align: center;
+}
+
+h1 
+{
+    margin: 10px auto;
+}
+
+form 
+{
+    margin: 10px auto;
+    width: 500px;
+    text-align: center;
+    //background-color: lightgray;
+}
+
+form fieldset
+{
+    padding: 20px 10px;
+}
+
+form label, form input 
+{
+    display: block;
+    margin: 0 auto;
+}
+
+form label
+{
+    margin-bottom: 5px;
+}
+
+form input
+{
+    height: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form input[type="submit"] 
+{
+    cursor: pointer;
+    width: 100px;
+    //background-color: orange;
+}
+
+#helpful-links 
+{
+    font-size: .5em;
+}
+
+a 
+{
+    text-decoration: none;
+}
+

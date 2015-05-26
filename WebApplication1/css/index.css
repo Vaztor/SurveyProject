@@ -1,0 +1,75 @@
+﻿/* Steven Parra */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    text-align: center;
+}
+
+#container 
+{
+    margin: 20px auto;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid black; 
+    //background-color: lightblue;
+}
+
+nav
+{
+    font-size: .5em;
+    float:right;
+}
+
+h1 
+{
+    font-size: 2.5em;
+    margin: 20px 0;
+    clear: right;
+}
+
+h3 
+{
+    font-size: 1.5em;
+}
+
+.button 
+{
+    width: 300px;
+    margin: 20px auto;
+    padding: 5px 10px;
+    border: solid 1px black;
+    //background-color: lightgray;
+}
+
+.panel 
+{
+    margin: 20px auto;
+    padding: 5px 10px;
+    border: solid 1px black;
+}
+
+#scrollWindow 
+{
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.scrollArrow 
+{
+    margin: 10px auto;
+    border: solid 1px black;
+    //height: 20px;
+    width: 100px;
+}
+
+a 
+{
+    text-decoration: none;
+    margin: 0 5px;
+}
