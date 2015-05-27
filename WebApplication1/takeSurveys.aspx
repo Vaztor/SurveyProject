@@ -1,11 +1,15 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="takeSurveys.aspx.cs" Inherits="WebApplication1.takeSurveys" %>
+
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head runat="server">
     <title>Take surveys</title>
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
+    <form id="form1" runat="server">
     <div id="container">
         
         <nav>
@@ -47,5 +51,6 @@
 
         </div> <!--End Scroll Window-->
     </div> <!--End Container-->
+    </form>
 </body>
 </html>

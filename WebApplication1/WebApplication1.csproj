@@ -69,8 +69,10 @@
     <Content Include="css\createAccount.css" />
     <Content Include="css\index.css" />
     <Content Include="css\login.css" />
+    <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="index.html" />
+    <Content Include="takeSurveys.aspx" />
     <Content Include="takeSurveys.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,6 +84,13 @@
     <Compile Include="createAccount.aspx.designer.cs">
       <DependentUpon>createAccount.aspx</DependentUpon>
     </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +99,13 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="takeSurveys.aspx.cs">
+      <DependentUpon>takeSurveys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="takeSurveys.aspx.designer.cs">
+      <DependentUpon>takeSurveys.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
