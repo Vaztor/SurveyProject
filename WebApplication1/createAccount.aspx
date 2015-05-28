@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-    <div id="container">
+    <form id="form1" runat="server">
+        <div id="container">
 
-        <h1>Create new account</h1>
+            <h1>Create new account</h1>
 
-        <form id="form1" runat="server">
             <fieldset>
 
                 <label for="userName">Username</label>
@@ -28,7 +28,7 @@
                 <input type="submit" value="Create Account">
 
             </fieldset>
-        </form>
-    </div>
+        </div> <!--End Container-->
+    </form>
 </body>
 </html>

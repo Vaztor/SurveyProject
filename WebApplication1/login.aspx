@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-    <div id="container">
+    <form id="form1" runat="server">
+        <div id="container">
 
-        <h1>Welcome</h1>
-
-        <form id="form1" runat="server">
+            <h1>Welcome</h1>
+    
             <fieldset>
 
                 <label for="userName">Username</label>
@@ -30,7 +30,7 @@
                 </div>
 
             </fieldset>
-        </form>
-    </div>
+        </div> <!--End Container-->
+    </form>
 </body>
 </html>

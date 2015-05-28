@@ -10,25 +10,25 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="container">
+        <div id="container">
 
-        <nav><a href="login.aspx">logout</a></nav>
+            <nav><a href="login.aspx">logout</a></nav>
 
-        <h1>My Self-Survey</h1>
+            <h1>My Self-Survey</h1>
 
-        <div class="button">
-            <h3><a href="takeSurveys.html">Take a Survey</a></h3>
-        </div>
+            <div class="button">
+                <h3><a href="takeSurveys.aspx">Take a Survey</a></h3>
+            </div>
 
-        <div class="button">
-            <h3><a href="createSurveys.html">Create a Survey</a></h3>
-        </div>
+            <div class="button">
+                <h3><a href="createSurveys.aspx">Create a Survey</a></h3>
+            </div>
 
-        <div class="button">
-            <h3><a href="mySurveys">My Surveys</a></h3>
-        </div>
+            <div class="button">
+                <h3><a href="mySurveys.aspx">My Surveys</a></h3>
+            </div>
 
-    </div>
+        </div> <!--End Container-->
     </form>
 </body>
 </html>

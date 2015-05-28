@@ -10,47 +10,43 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="container">
+        <div id="container">
         
-        <nav>
-            <a href="index.aspx">home</a>
-            <a href="login.aspx">logout</a>
-        </nav>
+            <nav>
+                <a href="index.aspx">home</a>
+                <a href="login.aspx">logout</a>
+            </nav>
 
-        <h1>Take a Survey!</h1>
+            <h1>Take a Survey!</h1>
         
-        <div id="scrollWindow">
+            <div id="scrollWindow">
 
-            <div class="scrollArrow">^</div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
+                <div class="button">
+                    <h3><a href="">Survey Title Here</a></h3>
+                </div>
 
-            <div class="panel">
-                <h3><a href="">Survey Title Here</a></h3>
-            </div>
-
-            <div class="scrollArrow">v</div>
-
-        </div> <!--End Scroll Window-->
-    </div> <!--End Container-->
+            </div> <!--End Scroll Window-->
+        </div> <!--End Container-->
     </form>
 </body>
 </html>
