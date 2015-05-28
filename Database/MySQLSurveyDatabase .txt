@@ -1,0 +1,28 @@
+//MySQL Database
+//Log of the database creation process - Keep updated
+
+CREATE DATABASE surveydb
+SELECT DATABASE();
+
+
+CREATE TABLE logins(
+id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+password VARCHAR(500) NOT NULL,
+date TIMESTAMP,
+result INT NOT NULL DEFAULT "0");
+
+
+//Incomplete and Not Yet Created aspects of the database.
+CREATE TABLE surveys(
+sid
+name
+type (What set type is the survey)
+cid (creator of the survey)
+
+
+==================
+//Extra commands - For Quick Reference
+DESCRIBE tablename -- Shows details of the table
+SHOW TABLES -- Shows all the current tables in the database
+SELECT * FROM tablename - Shows ALL the currently filled in details of the table (Null if empty)
