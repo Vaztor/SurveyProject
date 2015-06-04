@@ -10,7 +10,7 @@
 namespace WebApplication1 {
     
     
-    public partial class index {
+    public partial class thankyou {
         
         /// <summary>
         /// form1 control.
@@ -40,30 +40,12 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.LinkButton Logout;
         
         /// <summary>
-        /// TakeSurveysButton control.
+        /// ReturnButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button TakeSurveysButton;
-        
-        /// <summary>
-        /// CreateSurveysButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CreateSurveysButton;
-        
-        /// <summary>
-        /// MySurveysButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button MySurveysButton;
+        protected global::System.Web.UI.WebControls.Button ReturnButton;
     }
 }

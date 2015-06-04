@@ -1,6 +1,5 @@
 ﻿/* Steven Parra */
 
-
 *
 {
     margin: 0;
@@ -10,6 +9,7 @@
 body 
 {
     text-align: center;
+    // Enter CSS Font-Style, not google-related
 }
 
 #container 
@@ -17,6 +17,7 @@ body
     margin: 20px auto;
     padding: 20px;
     width: 500px;
+    border: solid 1px black;
 }
 
 h1
@@ -24,27 +25,12 @@ h1
     margin: 10px auto;
 }
 
-form fieldset
-{
-    margin: 0 auto;
-    padding: 20px 10px;
-}
-
-form label, form input 
-{
-    display: block;
-    margin: 0 auto;
-}
-
-form label
-{
-    margin-bottom: 5px;
-}
-
 form input
 {
-    height: 24px;
-    margin-bottom: 15px;
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    width: 300px;
     text-align: center;
 }
 
@@ -56,7 +42,7 @@ form input[type="submit"]
 
 #helpful-links 
 {
-    font-size: .5em;
+    font-size: .6em;
 }
 
 a 

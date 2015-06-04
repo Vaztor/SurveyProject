@@ -7,14 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class takeSurveys : System.Web.UI.Page
+    public partial class MySurveys : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*Attempt to create a list of buttons based on TAKE-ABLE surveys in database, 
-                each button corresponds to a unique survey ID and displays its title, and 
-                links to currentSurveys.aspx while carrying the ID of chosen Survey*/
-
+            /* For each user-self-created-survey entry in the database, create a new LABEL followed by a view/edit button that
+             * displays the title of the survey and carries the ID of that survey. Otherwise, only have
+             * a fixed number of surveys a user can create (by hardcoding the buttons on webpage)
+             */
         }
 
         protected void Home_Click(object sender, EventArgs e)
@@ -24,8 +24,9 @@ namespace WebApplication1
 
         protected void Logout_Click(object sender, EventArgs e)
         {
-            // Remember to log user off before redirect
+            // remember to logout out user prior to redirect
             Response.Redirect("login.aspx");
         }
+
     }
 }

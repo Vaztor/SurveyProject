@@ -1,0 +1,111 @@
+﻿
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    text-align: center;
+    position: relative;
+}
+
+form 
+{
+    position: relative;
+}
+
+#container 
+{
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    border: solid 1px black;
+    position: relative;
+}
+
+nav
+{
+    font-size: .6em;
+    padding: 0 10px;
+    float: right;
+}
+
+h1 
+{
+    text-align: center;
+    width: 300px;
+    margin: 10px auto 20px;
+}
+
+form input 
+{
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+form input[type=radio] 
+{
+    float: left;
+    width: 150px;
+}
+
+.label 
+{
+    font-size: 24px;
+    display: block;
+    margin: 10px 0 20px 60px;
+    text-align: left;
+}
+
+.question 
+{
+    width: 500px;
+    margin: 10px auto 20px;
+}
+
+hr 
+{
+    width: 680px;
+    margin: 10px auto 20px;
+}
+
+.button
+{
+    width: 150px;
+    margin: 2px auto;
+    display: block;
+    clear: right;
+}
+
+#toolbox 
+{
+    position: fixed;
+    top: 30%;
+    right: 6%;
+    width: 135px;
+    //text-align: left;
+    padding: 5px;
+    border: solid 1px black;
+    //background-color: red;
+}
+
+a 
+{
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.clearfix:after 
+{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+

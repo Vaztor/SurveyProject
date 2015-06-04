@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="takeSurveys.aspx.cs" Inherits="WebApplication1.takeSurveys" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="takeSurveys.aspx.cs" Inherits="WebApplication1.takeSurveys" %>
 
 <!DOCTYPE html>
 
@@ -13,39 +13,23 @@
         <div id="container">
         
             <nav>
-                <a href="index.aspx">home</a>
-                <a href="login.aspx">logout</a>
+                <asp:LinkButton ID="Home" text="home" runat="server" OnClick="Home_Click"></asp:LinkButton>
+                <asp:LinkButton ID="Logout" text="logout" runat="server" OnClick="Logout_Click"></asp:LinkButton>
             </nav>
 
             <h1>Take a Survey!</h1>
         
-            <div id="scrollWindow">
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-                <div class="button">
-                    <h3><a href="">Survey Title Here</a></h3>
-                </div>
-
-            </div> <!--End Scroll Window-->
+            
+            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button>
+            
+            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button>
+            
+            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            
+            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            
+            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            
         </div> <!--End Container-->
     </form>
 </body>

@@ -14,20 +14,14 @@
 
             <h1>Create new account</h1>
 
-            <fieldset>
+            <asp:TextBox ID="NewUsernameTextBox" placeholder="Username" runat="server"></asp:TextBox>
 
-                <label for="userName">Username</label>
-                <input type="text" id="userName" name="userName" size="30" required="required">
+            <asp:TextBox ID="NewPasswordTextBox" placeholder="Password" runat="server"></asp:TextBox>
 
-                <label for="userPassword">Password</label>
-                <input type="text" id="userPassword" name="userPassword" size="30" required="required">
+            <asp:TextBox ID="NewEmailTextBox" placeholder="Email" runat="server"></asp:TextBox>
 
-                <label for="email">Email</label>
-                <input type="email" placeholder="To verify your account only" id="userEmail" name="userEmail" size="30" required="required">
+            <asp:Button ID="CreateAccountButton" Text="Create Account" runat="server"></asp:Button>
 
-                <input type="submit" value="Create Account">
-
-            </fieldset>
         </div> <!--End Container-->
     </form>
 </body>

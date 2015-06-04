@@ -66,11 +66,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="createAccount.aspx" />
+    <Content Include="createSurveys.aspx" />
+    <Content Include="css\createSurveys.css" />
     <Content Include="css\index.css" />
     <Content Include="css\login.css" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="mySurveys.aspx" />
+    <Content Include="currentSurvey.aspx" />
+    <Content Include="reclaimAccount.aspx" />
     <Content Include="takeSurveys.aspx" />
+    <Content Include="thankYou.aspx" />
+    <Content Include="viewReults.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +87,13 @@
     </Compile>
     <Compile Include="createAccount.aspx.designer.cs">
       <DependentUpon>createAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createSurveys.aspx.cs">
+      <DependentUpon>createSurveys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createSurveys.aspx.designer.cs">
+      <DependentUpon>createSurveys.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -95,13 +109,48 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="mySurveys.aspx.cs">
+      <DependentUpon>mySurveys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mySurveys.aspx.designer.cs">
+      <DependentUpon>mySurveys.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="currentSurvey.aspx.cs">
+      <DependentUpon>currentSurvey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="currentSurvey.aspx.designer.cs">
+      <DependentUpon>currentSurvey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reclaimAccount.aspx.cs">
+      <DependentUpon>reclaimAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reclaimAccount.aspx.designer.cs">
+      <DependentUpon>reclaimAccount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="takeSurveys.aspx.cs">
       <DependentUpon>takeSurveys.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="takeSurveys.aspx.designer.cs">
       <DependentUpon>takeSurveys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thankYou.aspx.cs">
+      <DependentUpon>thankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thankYou.aspx.designer.cs">
+      <DependentUpon>thankYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewReults.aspx.cs">
+      <DependentUpon>viewReults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewReults.aspx.designer.cs">
+      <DependentUpon>viewReults.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

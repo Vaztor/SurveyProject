@@ -10,26 +10,24 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="container">
+        <div id="container" runat="server">
 
             <h1>Welcome</h1>
-    
-            <fieldset>
 
-                <label for="userName">Username</label>
-                <input type="text" id="userName" name="userName" size="30" required="required">
+            <asp:TextBox ID="UsernameTextBox" placeholder="Username" runat="server"></asp:TextBox>
+            
+            <asp:TextBox ID="PasswordTextBox" placeholder="Password" runat="server"></asp:TextBox>
 
-                <label for="userPassword">Password</label>
-                <input type="text" id="userPassword" name="userPassword" size="30" required="required">
+            <asp:Button ID="LoginButton" text="Login" runat="server" OnClick="LoginButton_Click"></asp:Button>
 
-                <input type="submit" value="Login">
+            <div id="helpful-links">
 
-                <div id="helpful-links">
-                    <p><a href="retrievePassword.aspx">Forgot password?</a></p>
-                    <p><a href="createAccount.aspx">New member? Create a new account!</a></p>
-                </div>
+                <asp:LinkButton ID="ForgotPasswordLink" text="Forgot Password?" runat="server" OnClick="ForgotPasswordLink_Click"></asp:LinkButton>
+                <br />
+                <asp:LinkButton ID="CreateAccountLink" text="New member? Create an account!" runat="server" OnClick="CreateAccountLink_Click"></asp:LinkButton>
 
-            </fieldset>
+            </div>
+
         </div> <!--End Container-->
     </form>
 </body>
