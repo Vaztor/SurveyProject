@@ -7,8 +7,12 @@
 
 body 
 {
+    font-family: Calibri, helvetica, sans-serif;
     text-align: center;
     position: relative;
+    background-color: black;
+    /*Be sure to upload img in GoDaddy to ensure it shows up! */
+    background-image: url(http://www.wallmu.com/wallpaperstock/cool-computer-backgrounds-hd.jpg);
 }
 
 form 
@@ -21,7 +25,8 @@ form
     width: 800px;
     margin: 10px auto;
     padding: 20px;
-    border: solid 1px black;
+    border: solid 3px #179292;
+    background-color: #69CCCC;
     position: relative;
 }
 
@@ -41,11 +46,14 @@ h1
 
 form input 
 {
+    font-family: inherit;
     display: block;
     margin: 10px auto;
     height: 40px;
     width: 300px;
     text-align: center;
+    background-color: aquamarine;
+    border: solid 1px #179292;
 }
 
 form input[type=radio] 
@@ -88,10 +96,14 @@ hr
     top: 30%;
     right: 6%;
     width: 135px;
-    //text-align: left;
     padding: 5px;
-    border: solid 1px black;
-    //background-color: red;
+    border: solid 3px #179292;
+    background-color: #69CCCC;
+}
+
+p 
+{
+    color: black;
 }
 
 a 
