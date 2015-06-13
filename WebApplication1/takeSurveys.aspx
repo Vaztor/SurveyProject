@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="takeSurveys.aspx.cs" Inherits="WebApplication1.takeSurveys" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeFile="takeSurveys.aspx.cs" Inherits="WebApplication1.takeSurveys" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Take surveys</title>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,15 +20,15 @@
             <h1>Take a Survey!</h1>
         
             
-            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button>
+            <asp:Button class="button" text="Take a Survey" runat="server" ID="TakeSurveyButton1" OnClick="TakeSurveyButton1_Click"></asp:Button>
             
-            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button>
+            <asp:Button class="button" text="Take a Survey" runat="server" ID="TakeSurveyButton2" OnClick="TakeSurveyButton2_Click"></asp:Button>
             
-            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            <asp:Button class="button" text="Take a Survey" runat="server" ID="TakeSurveyButton3" OnClick="TakeSurveyButton3_Click"></asp:Button> 
             
-            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            <asp:Button class="button" text="Take a Survey" runat="server" ID="TakeSurveyButton4" OnClick="TakeSurveyButton4_Click"></asp:Button> 
             
-            <asp:Button class="button" text="Take a Survey" runat="server"></asp:Button> 
+            <asp:Button class="button" text="Take a Survey" runat="server" ID="TakeSurveyButton5" OnClick="TakeSurveyButton5_Click"></asp:Button> 
             
         </div> <!--End Container-->
     </form>

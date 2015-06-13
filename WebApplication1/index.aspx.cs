@@ -30,14 +30,10 @@ namespace WebApplication1
             Response.Redirect("takeSurveys.aspx");
         }
 
-        protected void CreateSurveysButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("createSurveys.aspx");
-        }
-
+     
         protected void MySurveysButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("mySurveys.aspx");
+            Response.Redirect("viewReults.aspx");
         }
     }
 }

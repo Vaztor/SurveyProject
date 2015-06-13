@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="WebApplication1._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="WebApplication1._default" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Self-Survey Login</title>
 
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -14,9 +14,11 @@
 
             <h1>Welcome</h1>
 
-            <asp:TextBox ID="UsernameTextBox" placeholder="Username" runat="server"></asp:TextBox>
+            <asp:TextBox ID="UsernameTextBox"  runat="server" ></asp:TextBox>
             
-            <asp:TextBox ID="PasswordTextBox" placeholder="Password" runat="server"></asp:TextBox>
+            <asp:TextBox ID="PasswordTextBox"  runat="server" TextMode="Password"></asp:TextBox>
+
+            <asp:Label ID="lblResults" runat="server"></asp:Label>
 
             <asp:Button ID="LoginButton" text="Login" runat="server" OnClick="LoginButton_Click"></asp:Button>
 

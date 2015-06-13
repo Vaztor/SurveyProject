@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication1.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="WebApplication1.index" %>
 
 <!DOCTYPE html>
 
@@ -19,11 +19,9 @@
 
             <h1>My Self-Survey</h1>
 
-            <asp:Button ID="TakeSurveysButton" class="button" text="Take Surveys" runat="server" OnClick="TakeSurveysButton_Click"></asp:Button> 
+            <asp:Button ID="TakeSurveysButton" class="button" text="Take Survey" runat="server" OnClick="TakeSurveysButton_Click"></asp:Button> 
 
-            <asp:Button ID="CreateSurveysButton" class="button" text="Create Surveys" runat="server" OnClick="CreateSurveysButton_Click"></asp:Button> 
-
-            <asp:Button ID="MySurveysButton" class="button" text="My Surveys" runat="server" OnClick="MySurveysButton_Click"></asp:Button> 
+            <asp:Button ID="MySurveysButton" class="button" text="View Survey Results" runat="server" OnClick="MySurveysButton_Click"></asp:Button> 
             
         </div> <!--End Container-->
     </form>

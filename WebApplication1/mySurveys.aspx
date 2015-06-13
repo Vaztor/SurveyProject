@@ -6,7 +6,7 @@
 <head runat="server">
     <title>My Self-Surveys</title>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
