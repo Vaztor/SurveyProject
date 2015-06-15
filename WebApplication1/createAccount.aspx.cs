@@ -19,7 +19,7 @@ namespace WebApplication1
         {
             string strName = NewUsernameTextBox.Text.Trim().Replace("'", "");
             string strPassword = NewPasswordTextBox.Text.Trim().Replace("'", "");
-            int nResult = 0;
+            int nResult = -1;
 
             SqlConnection objConnection = new SqlConnection("Data Source=184.168.47.17;Initial Catalog=SurveyWebsite_;user id=RickSurveyGroup;password=RickCOP4331;Connection Timeout=40");
            
@@ -44,6 +44,7 @@ namespace WebApplication1
 			{
 				
                 strSQL = String.Format("insert into users (uname,upwd) VALUES ('{0}','{1}')", strName, strPassword);
+                nResult = 0;
 			}
 			objReader.Close();
 

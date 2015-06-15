@@ -33,7 +33,7 @@ namespace WebApplication1
      
         protected void MySurveysButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("viewReults.aspx");
+            Response.Redirect("viewSurveys.aspx");
         }
     }
 }

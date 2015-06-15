@@ -45,7 +45,7 @@
                 document.getElementById("Choice3Text").innerHTML =
                     arr.strChoice3Text;
                 
-                var total = arr.nChoice1 + arr.nChoice2 + arr.nChoice3 + arr.nChoice4;
+                var total = arr.nChoice1 + arr.nChoice2 + arr.nChoice3;
                 var c1 = ( arr.nChoice1 * 400 ) / total;
                 document.getElementById("Choice1Value").style.width = "" + c1 + "px";
                 var c2 = ( arr.nChoice2 * 400 ) / total;
@@ -61,6 +61,13 @@
     </script>
 
 
+    <style type="text/css">
+        .auto-style1 {
+            width: 46px;
+        }
+    </style>
+
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -69,14 +76,16 @@
 		<h1 id="SurveyTitle"> &nbsp;</h1>
 		<h2 id="ItemTitle"> &nbsp;</h2>
 		<table>
-			<tr><td id="Choice1Text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice1Value"><tr><td  style="background-color:deepskyblue;"></td></tr></table></td></tr>
-			<tr><td id="Choice2Text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice2Value"><tr><td  style="background-color:cadetblue;"></td></tr></table></td></tr>
-			<tr><td id="Choice3Text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice3Value"><tr><td  style="background-color:navajowhite;"></td></tr></table></td></tr>
+			<tr><td id="Choice1Text" class="auto-style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice1Value"><tr><td  style="background-color:deepskyblue;"></td></tr></table></td></tr>
+			<tr><td id="Choice2Text" class="auto-style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice2Value"><tr><td  style="background-color:cadetblue;"></td></tr></table></td></tr>
+			<tr><td id="Choice3Text" class="auto-style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="height:30px; width:400px;"><table style="height:30px; width:10px;" id="Choice3Value"><tr><td  style="background-color:navajowhite;"></td></tr></table></td></tr>
 		</table>
 		<table>
 			<tr><td align="center"><asp:Button runat="server" Visible="false" Text="Prev" ID="btnPrev" OnClick="btnPrev_Click" /> &nbsp;&nbsp;<asp:Button runat="server" Text="Next" ID="btnNext" OnClick="btnNext_Click" /></td></tr>
-		</table>
 
+
+		</table>
+            <asp:Button ID="DoneButton" class="button" text="Done" runat="server" OnClick="DoneButton_Click"></asp:Button> 
 
 
         </div>

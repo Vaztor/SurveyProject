@@ -22,7 +22,7 @@
 
             <asp:Label ID="lblResults" runat="server"></asp:Label>
 
-            <asp:Button ID="CreateAccountButton" Text="Create Account" runat="server"></asp:Button>
+            <asp:Button ID="CreateAccountButton" Text="Create Account" runat="server" OnClick="CreateAccountButton_Click"></asp:Button>
 
         </div> <!--End Container-->
     </form>
